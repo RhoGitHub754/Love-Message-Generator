@@ -10,8 +10,8 @@ const loveMess = {
     
     // random index generator function
     
-    const randomNum = () => {
-      return Math.floor(Math.random() * 4);
+    const randomNum = (num) => {
+      return Math.floor(Math.random() * num);
     }
     
     // funtion to print random parts of the message arrays
