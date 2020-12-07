@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./resources/reset.css"/>
     <link rel="stylesheet" type="text/css" href="./resources/styles.css">
-    <script src="script.js"></script>
+    
     <title>Love Message Generator</title>
 </head>
 <body>
@@ -27,11 +27,12 @@
         <main>
         <section id="generator">
             <div class="generator-container">
+                <p id="love-message"></p>
 
             
             <!-- BUTTON -->
-            <button type="button" class="button">Generate Love Message</button>
-            <div id="bubble"><img src="./resources/images/1200px-Speech_balloon.svg.png"></div>
+            <button id="button" type="button" class="button">Generate Love Message</button>
+            <div id="bubble"><img id="bubble" src="./resources/images/1200px-Speech_balloon.svg.png"></div>
         
             </div>
         </section>
@@ -41,7 +42,9 @@
 
         </footer>
     </div>
+    <script src="script.js" async></script>
 </body>
+
 </html>
 
 <!-- D:\Codecademy\Projects\Love Message Generator\index.html -->
